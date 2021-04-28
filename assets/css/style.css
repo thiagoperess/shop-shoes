@@ -29,12 +29,15 @@ body {
     color: #222;
 
 }
+
 h1, h2, h3, h4, h5, h6{
     font-family: 'Roboto', sans-serif;
 }
+
 p, a, li{
     font-family: 'Oxygen', sans-serif;
 }
+
 a {
     transition: all 0.3s ease-out;
     position: relative;
@@ -54,6 +57,7 @@ a:hover {
     height: auto;
     max-width: 100%;
 }
+
 .block-title {
     font-weight: 300;
     font-family: 'Roboto Condensed', sans-serif;
@@ -70,11 +74,13 @@ a:hover {
     padding: 80px 0px 50px 0px;
     overflow: hidden;
 }
+
 .title-box{
     text-align: center;
     
     margin-bottom: 50px;
 }
+
 .bb-top-left {
     position: absolute;
     width: 15px;
@@ -84,6 +90,7 @@ a:hover {
     border-top: 1px solid #000;
     border-left: 1px solid #000;
 }
+
 .bb-bottom-left {
     position: absolute;
     width: 15px;
@@ -93,6 +100,7 @@ a:hover {
     border-bottom: 1px solid #000;
     border-left: 1px solid #000;
 }
+
 .bb-top-right {
     position: absolute;
     width: 15px;
@@ -102,6 +110,7 @@ a:hover {
     border-top: 1px solid #000;
     border-right: 1px solid #000;
 }
+
 .bb-bottom-right {
     position: absolute;
     width: 15px;
@@ -111,6 +120,7 @@ a:hover {
     border-bottom: 1px solid #000;
     border-right: 1px solid #000;
 }
+
 .polo-btn {
     display: block;
     color: #fff;
@@ -122,7 +132,6 @@ a:hover {
     margin: 0px 0px 20px 0px;
     transition: 0.4s ease all;
 }
-
 
 /* Side Menu */
 
@@ -189,6 +198,7 @@ a:hover {
     color: #fff;
     background: none;
 }
+
 #sidebar-wrapper.active {
     right: 250px;
     width: 260px;
@@ -202,6 +212,7 @@ a:hover {
 .toggle {
     margin: 5px 5px 0 0;
 }
+
 .close-btn {
     display: block;
     color: #FFFFFF;
@@ -212,12 +223,10 @@ a:hover {
     width: 100%;
     padding-right: 25px;
 }
+
 .close-btn:hover {
     color: #f8aba1;
 }
-
-
-
 
 /* Preloader */
 
@@ -243,6 +252,7 @@ a:hover {
     transition: all 0.5s;
     z-index: 99999;
 }
+
 .fixed {
     position: fixed;
     top:0; 
@@ -251,6 +261,7 @@ a:hover {
     background-color: #f8aba1;
     padding: 0px;
 }
+
 .logo {
     font-family: 'caviar_dreams';
     color: #fff;
@@ -262,6 +273,7 @@ a:hover {
     padding: 5px 0px;
     margin-top: 15px;
 }
+
 #menu-toggle {
     z-index: 1;
     font-size: 35px;
@@ -272,9 +284,11 @@ a:hover {
     padding: 2px 10px;
     line-height: 0;
 }
+
 .store-btn-container {
     padding-top: 15px;
 }
+
 .store-btn:hover,#menu-toggle:hover {
     background: #f8aba1;
     border-color: #ff8e62;
@@ -295,31 +309,38 @@ a:hover {
     padding: 25% 0 30% 0;
     color: #fff;
 }
+
 .headings h1 {
     font-size: 40px;
     font-weight: 300;
     padding-bottom: 20px;
 }
+
 .headings p {
     font-size: 18px;
     font-weight: 300;
     padding-bottom: 20px;
 }
+
 .hand-container {
     max-height: 630px;
     overflow: hidden;
 }
+
 .iphone-hand {
     padding: 0px 30px 30px 30px;
 }
+
 .store:hover{
     background: #00ceb8;
     border-color: #00ceb8;
     color: #fff; 
 }
+
 .polo-btn i {
     padding-right: 6px;
 }
+
 .slidedown {
     font-size: 50px;
     color: #fff;
@@ -330,18 +351,16 @@ a:hover {
     cursor: pointer;
 }
 
-
 /* Gallery */
 
-
-#gallery{
+#gallery {
     /* background: url(../img/background3.jpeg) no-repeat; */
     background-size: cover;
     background-attachment: fixed;
     background-color: #f8bbb4;
 }
 
-#screenshots .item{
+#screenshots .item {
   padding: 0px 0px;
   margin: 10px;
   color: #FFF;
@@ -350,11 +369,14 @@ a:hover {
   border-radius: 3px;
   text-align: center;
 }
-.customNavigation{
+
+.customNavigation {
   text-align: center;
 }
+
 /* use styles below to disable ugly selection */
-.customNavigation a{
+
+.customNavigation a {
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
@@ -362,6 +384,7 @@ a:hover {
   user-select: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
 .gallery-nav {
     color: #cb6eb7;
     font-size: 2em;
@@ -378,7 +401,6 @@ a:hover {
 }
 
 /* Testimonial */
-
 
 #testimonial {
     background: url(../img/bg-tenis.jpg);
@@ -411,12 +433,15 @@ a:hover {
     color: #ffd9d9;
     
 }
+
 #testimonial .block-title {
     color: #fff;
 }
+
 #testimonial .block-title span {
     border-color: #fff;
 }
+
 p.client-name {
     float: right;
     font-size: 30px;
@@ -426,7 +451,6 @@ p.client-name {
     padding-bottom: 5px;
 }
 
-
 /* Subscribe Section */
 
 #subscribe {
@@ -435,15 +459,18 @@ p.client-name {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .susbcribe-text {
     text-align: center;
     font-size: 24px;
     font-weight: 300;
     padding-bottom: 30px;
 }
+
 .container.subscribe-wrap {
     max-width: 600px;
 }
+
 #exampleInputEmail1 {
     font-size: 20px;
     padding: 15px 30px;
@@ -452,6 +479,7 @@ p.client-name {
     border-radius: 0px;
     box-shadow: none;
 }
+
 .btn-custom {
     width: 100%;
     padding: 5px 15px;
@@ -463,13 +491,12 @@ p.client-name {
     margin-left: -16px;
     color: #fff;
 }
+
 .subscribe-wrap .form-group {
     margin-right: -16px;
 }
 
-
 /* 12 - Contact us Section */
-
 
 .address {
     width: 30%;
@@ -477,6 +504,7 @@ p.client-name {
     background: url(../img/gmap-bg.jpg);
     height: 640px;
 }
+
 .mailbox {
     width: 70%;
     float: left;
@@ -485,12 +513,15 @@ p.client-name {
     padding-bottom: 111px;
     height: 640px;
 }
+
 .address .container {
     max-width: 100%;
 }
+
 .mailbox .container {
     max-width: 90%;
 }
+
 .address-list {
     list-style: none;
     padding: 160px 0px 70px 0px;
@@ -499,12 +530,14 @@ p.client-name {
     margin: 0 auto;
     display: table;
 }
+
 .address-list li {
     font-size: 22px;
     padding: 0.5em 0;
     color: #fff;
     font-weight: 100;
 }
+
 .address-list li i {
     display: table-cell;
     background-color: blue;
@@ -517,11 +550,13 @@ p.client-name {
     margin: 0;
     vertical-align: middle;
 }
+
 .address-list li span {
     padding: 0px 0px 0px 20px;
     display: table-cell;
     vertical-align: middle;
 }
+
 .mailbox .container {
     margin-top: 225px;
     margin-bottom: 0px;
@@ -532,6 +567,7 @@ p.client-name {
     border: 2px solid #C2C2C2;
     font-size: 18px;
 }
+
 #contactForm input:active,#contactForm textarea:active,#contactForm input:hover,#contactForm textarea:hover {
     border: 2px solid #00ceb8;
 }
@@ -540,13 +576,16 @@ p.client-name {
     padding: 20px;
     height: auto;
 }
+
 #contactForm .form-group {
     margin-bottom: 25px;
 }
+
 #contactForm #message {
     height: 258px;
     padding-bottom: 40px;
 }
+
 .contact-submit {
     margin: 0 auto;
     margin-top: -38px;
@@ -559,13 +598,16 @@ p.client-name {
     margin: 0 auto;
     margin-top: -46px;
 }
+
 .contact-submit:hover {
     background: #ffb9b0;
     color: #fff;
 }
+
 #contact {
     position: relative;
 }
+
 .contact-wrap {
     position: absolute;
     z-index: 9999;
@@ -584,7 +626,6 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 input:-moz-placeholder, textarea:-moz-placeholder {
   color: #6ecba9;
 }
-
 
 /* Footer Section */
 
@@ -643,7 +684,6 @@ h3 {
     text-decoration: none;
     color: #fff
 }
-
 
 /* Media Queries */
 
@@ -738,7 +778,6 @@ h3 {
         text-align: center;
     }
 }
-
 
 /*480px*/
 
