@@ -27,6 +27,7 @@ License URI: https://www.mozilla.org/MPL/2.0/
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
     color: #222;
+    overflow: hidden;
 
 }
 
